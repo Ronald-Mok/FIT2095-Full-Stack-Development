@@ -1,0 +1,5 @@
+[
+    { "name": "salmon fillet", "quantity": 2, "unit": "pieces" },
+    { "name": "soy sauce", "quantity": 30, "unit": "mL" },
+    { "name": "rice", "quantity": 300, "unit": "g" }
+]
