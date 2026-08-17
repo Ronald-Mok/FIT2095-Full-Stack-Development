@@ -1,0 +1,43 @@
+{
+  "openapi": "3.0.0",
+
+  "info": {
+    "title": "My Express API",
+    "version": "1.0.0"
+  },
+
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Home page",
+        "responses": {
+          "200": {
+            "description": "Returns the home page message"
+          }
+        }
+      }
+    },
+
+    "/about": {
+      "get": {
+        "summary": "About page",
+        "responses": {
+          "200": {
+            "description": "Returns the about page message"
+          }
+        }
+      }
+    },
+
+    "/about/about2": {
+      "get": {
+        "summary": "Second about page",
+        "responses": {
+          "200": {
+            "description": "Returns the second about page message"
+          }
+        }
+      }
+    }
+  }
+}
